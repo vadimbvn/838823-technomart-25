@@ -10,7 +10,7 @@
         <a class="main-header-logo">
           <img src="img/logo-technomart.svg" width="109" height="19" alt="Логотип Техномарт">
         </a>
-        <a class="main-header-search" href="#">Поиск</a>
+        <input class="main-header-search" type="search">
         <a class="main-header-marker" href="#">Закладки</a>
         <a class="main-header-cart" href="#">Корзина</a>
         <a class="main-header-order" href="#">Оформить Заказ</a>
@@ -57,6 +57,30 @@
         <img src="img/map-small.png" width="300" height="158" alt="Адрес магазина">
         <a class="button" href="#">Заблудились? Напишите Нам</a>
       </section>
+      <section class="modal modal-write">
+        <h2 class="visually-hidden">Напишите Нам</h2>
+        <form class="write-form" action="https://echo.htmlacademy.ru" method="post">
+          <p>
+            <label for="user-name">Ваше имя:</label> 
+            <input type="text" name="name" id="user-name" placeholder="Имя Фамилия">
+          </p>
+          <label for="user-email">Ваш e-mail:</label>
+          <input type="email" name="email" id="user-email" placeholder="email@example.com">
+          <p>
+            <label for="user-text">Текст письма:</label>
+            <textarea name="text" id="user-text" cols="100" rows="5" placeholder="В Свободной форме"></textarea>
+          </p>
+          <button class="button" type="submit">Отправить</button>
+        </form>
+        <button class="modal-close" type="button">Закрыть</button>
+      </section>
+      <section class="modal modal-map">
+        <h2 class="visually-hidden">Как до нас добраться?</h2>
+        <p>
+          <img src="img/map-big.png" width="940" height="446" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
+        </p>
+        <button class="modal-close" type="button">Закрыть</button>
+      </section>
   	</main>
   	<footer class="main-footer">
       <a class="footer-logo">
@@ -84,9 +108,9 @@
         Все права защищены
       </p>
       <ul class="footer-social">
-        <li><a class="social-button" href="#">Вконтакте</a></li>
-        <li><a class="social-button" href="#">Фейсбук</a></li>
-        <li><a class="social-button" href="#">Инстаграмм</a></li>
+        <li><a class="social-button" href="#" aria-label="Техномарт Вконтакте">Вконтакте</a></li>
+        <li><a class="social-button" href="#" aria-label="Техномарт на Фейсбуке">Фейсбук</a></li>
+        <li><a class="social-button" href="#" aria-label="Техномарт в Инстаграмме">Инстаграмм</a></li>
         </ul>
       <p>обратная связь:
         <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
@@ -94,6 +118,6 @@
       <p>Разработано -
          <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
       </p>
-  	</footer>
+    </footer>
   </body>
 </html>
