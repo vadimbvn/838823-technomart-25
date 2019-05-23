@@ -1,0 +1,211 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Cuprum", Arial, sans-serif;
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #000000;
+	background-color: #ffffff;
+
+}
+
+.main-header-logo {
+	background-color: #ee3643;
+}
+
+a {
+	text-decoration: none;
+}
+
+.main-header-info {
+	font-size: 17px;
+	line-height: 18px;
+	color: #ffffff;
+	background-color: #293449;
+}
+
+.main-header-info a {
+	color: #ffffff;
+}
+
+.form-search input {
+	font: inherit;
+	background-color: transparent;
+}
+
+.main-header-order {
+	background-color: #63a63e;
+}
+
+.form-search input:focus {
+	background-color: white;
+}
+
+.main-header-logo:hover {
+	background-color: #ca2c37;
+}
+
+.main-header-marker:hover,
+.main-header-cart:hover {
+	background-color: #212a3a;
+}
+
+.main-header-order:hover {
+	background-color: #518534;
+}
+
+.header-description {
+	background-color: #f4f7f9;
+}
+
+.header-text {
+	font-size: 16px;
+	line-height: 23px;
+	font-weight: 400;
+	font-style: italic;
+	color: #ee3643;
+}
+
+.header-phone {
+	font-size: 21px;
+	line-height: 21px;
+	color: #ee3643;
+	border: solid 3px #ffffff;
+}
+
+.header-address {
+	font-size: 14px;
+	line-height: 24px;
+	color: #32425c;
+	text-align: center;
+}
+
+.user-navigation {
+	font-size: 21px;
+	line-height: 21px;
+	list-style: none;
+}
+
+.user-navigation a {
+	color: #000000;
+}
+
+.user-navigation a:hover {
+	color: #ee3643;
+}
+
+.main-navigation {
+	font-size: 17px;
+	line-height: 17px;
+	background-color: #32425c;
+}
+
+.main-navigation ul {
+	list-style: none;
+}
+
+.main-navigation a {
+	color: #ffffff;
+}
+
+.main-navigation a:hover {
+	background-color: #32425c;
+}
+
+.company-title {
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: 400;
+}
+
+.about-company p {
+	font-family: "PTsans"; 
+}
+
+.transport-list {
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.button {
+	size: 14px;
+	line-height: 18px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+	background-color: #ee3643;
+}
+
+.contacts-title {
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: 400;
+}
+
+.modal {
+	display: none;
+}
+
+.main-footer {
+	font-size: 18px;
+	line-height: 24px;
+	color: #ffffff;
+	background-color: #32425c;
+}
+
+.footer-logo {
+	background-color: #ee3643;
+}
+
+.footer-navigation  {
+	list-style: none;
+}
+.footer-navigation a {
+	color: #ffffff;
+}
+
+.footer-contacts {
+	color: #f3f7f9;
+}
+
+.footer-products {
+	list-style: none;
+}
+
+.footer-products a {
+	color: #ffda96;
+}
+
+.footer-navigation a:hover,
+.footer-products a:hover {
+	text-decoration: underline;
+}
+
+.footer-bottom {
+	font-size: 16px;
+	line-height: 18px;
+	background-color: #293449;
+}
+
+.footer-social {
+	text-align: center;
+	list-style: none;
+}
+
+.social-button {
+	color: #ffffff;
+}
+
+.social-button:hover {
+	background-color: #ee3643;
+}
+
+.orders a {
+	color: #ffd180;
+}
+
+.orders a:hover {
+	text-decoration: underline;
+}
+
