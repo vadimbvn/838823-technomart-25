@@ -2096,7 +2096,8 @@ input[type="radio"].visually-hidden {
   display: none;
   width: 620px;
   top: 120px;
-  left: 450px;
+  left: 50%;
+  margin-left: -310px;
   border-top: 7px solid #ff5357;
   z-index: 20;
   animation-name: bounce;
@@ -2217,7 +2218,8 @@ input[type="radio"].visually-hidden {
   padding: 0px;
   width: 620px;
   top: 184px;
-  left: 450px;
+  left: 50%;
+  margin-left: -290px;
   border-top: 7px solid #ff5357;
   z-index: 30;
   animation-name: bounce;
