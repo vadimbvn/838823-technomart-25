@@ -749,7 +749,6 @@ input[type="radio"].visually-hidden {
   z-index: 1;
 }
 
-
 .slider-button-back {
   position: absolute;
   background-image: url("..//img/icon-back.svg");
@@ -757,7 +756,7 @@ input[type="radio"].visually-hidden {
   background-position: 0 0;
   width: 22px;
   height: 40px;
-  top: 110px;
+  top: 113px;
   left: 25px;
   font-size: 0px;
   border: none;
@@ -771,7 +770,7 @@ input[type="radio"].visually-hidden {
   background-position: 0 0;
   width: 22px;
   height: 40px;
-  top: 110px;
+  top: 113px;
   right: 20px;
   font-size: 0px;
   border: none;
