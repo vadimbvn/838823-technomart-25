@@ -5,8 +5,8 @@ var buyContinue = buyPopup.querySelector(".modal-continue");
 
 for (var i = 0; i < buyLink.length; i++) {
     buyLink[i].addEventListener("click", function (evt) {
-      evt.preventDefault();
-      buyPopup.classList.add("modal-show");
+    evt.preventDefault();
+    buyPopup.classList.add("modal-show");
   }
 )};
 

@@ -16,36 +16,33 @@ contactLink.addEventListener("click", function (evt) {
   evt.preventDefault();
   contactPopup.classList.add("modal-show");
   login.focus();
-
 });
 
 contactClose.addEventListener("click", function (evt) {
   evt.preventDefault();
   contactPopup.classList.remove("modal-show");
   contactPopup.classList.remove("modal-write-error");
-
-
 });
 
 form.addEventListener("submit", function (evt) {
   if (!login.value || !email.value) {
-  evt.preventDefault();
-  contactPopup.classList.remove("modal-write-error");
-  contactPopup.offsetWidth = popup.offsetWidth;
-  contactPopup.classList.add("modal-write-error");
-  console.log("Введите свои данные");
-} else {
-  contactPopup.classList.remove("modal-show");
-  console.log("Отравляем данные");
-}
+    evt.preventDefault();
+    contactPopup.classList.remove("modal-write-error");
+    contactPopup.offsetWidth = contactPopup.offsetWidth;
+    contactPopup.classList.add("modal-write-error");
+    console.log("Введите свои данные");
+}   else {
+    contactPopup.classList.remove("modal-show");
+    console.log("Отравляем данные");
+  }
 });
 
 window.addEventListener("keydown", function (evt) {
   if (evt.keyCode === 27) {
     evt.preventDefault();
     if (contactPopup.classList.contains("modal-show")) {
-      contactPopup.classList.remove("modal-show");
-      contactPopup.classList.remove("modal-write-error");
+    contactPopup.classList.remove("modal-show");
+    contactPopup.classList.remove("modal-write-error");
     }
   }
 });
@@ -71,8 +68,8 @@ window.addEventListener("keydown", function (evt) {
 
 for (var i = 0; i < buyLink.length; i++) {
     buyLink[i].addEventListener("click", function (evt) {
-      evt.preventDefault();
-      buyPopup.classList.add("modal-show");
+    evt.preventDefault();
+    buyPopup.classList.add("modal-show");
   }
 )};
 
